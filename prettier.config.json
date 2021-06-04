@@ -1,6 +1,14 @@
 {
-  "printWidth": 120,
-  "tabWidth": 4,
   "useTabs": false,
-  "singleQuote": true
+  "printWidth": 75,
+  "htmlWhitespaceSensitivity": "ignore",
+  "embeddedLanguageFormatting": "auto",
+  "overrides": [
+    {
+      "files": "*.handlebars",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
 }
